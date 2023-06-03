@@ -33,19 +33,18 @@
 
 .bio-1, .bio-2 {
 	flex: 1;
+	padding: 20px;
 }
 
 .bio-1 {
 	align-items: flex-start;
 	flex-grow: 3;
-	padding: 20px;
 	justify-items: center;
 }
 
 .bio-2 {
 	align-items: flex-end;
 	flex-grow: 7;
-	padding: 0 20px 5px 0;
 }
 
 .foto-profil {
@@ -111,16 +110,46 @@ li {
 	text-align: center;
 	align-items: center;	
 	border-radius: 10px;
+	margin: 15px;
 }
 
 .soft-skill{
 	align-items: flex-start;
-	margin: 0 15px 0 0;
 	flex-grow: 4;
+	flex-shrink: 4;
 }
 
 .hard-skill{
 	align-items: flex-end;
-	margin: 0 0 0 15px;
 	flex-grow: 6;
+	flex-shrink: 6;
+}
+
+@media (max-width: 600px) {
+	body {
+		margin: 0;
+		background-color: #202c3b;
+		color: #f8f8f8;
+		font-size: 4vw;
+		padding: 25px 25px 0 25px;
+	}
+
+ 	.container-1 {
+    	flex-direction: column;
+  	}
+
+  	.container {
+  		flex-direction: column;
+  	}
+
+  	.soft-skill, .hard-skill{
+		background-color: #55759d;
+		flex: 1;
+		padding: 2.5px;
+		text-align: center;
+		align-items: center;	
+		border-radius: 10px;
+		margin: 7.5px;
+	}
+
 }
