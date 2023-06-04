@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	font-family: 'Montserrat';
 	color: #f8f8f8;
-	font-size: 2.2vw;
+	font-size: 2vw;
 	padding: 0;
 }
 
@@ -20,8 +20,31 @@ body p {
 footer {
 	text-align: center;
 	background-color: #55759d;
-	margin: 25px 0 0 0;
+	margin: 0;
+	opacity: 90%;
 	width: 100%;
+}
+
+.container-biodata {
+	width: 100%;
+	display: flex;
+	opacity: 95%;
+	flex-wrap: wrap ;
+	justify-content: center;
+	border-radius: 8px;
+	margin: 0 0 50px 0;
+	min-width: 0;
+}
+
+.container-contactme {
+	width: 100%;
+	display: flex;
+	background-color: #55759d;
+	opacity: 90%;
+	flex-wrap: wrap ;
+	justify-content: center;
+	margin: 0;
+	min-width: 0;
 }
 
 .container {
@@ -65,9 +88,12 @@ footer {
 	flex-grow: 7;
 }
 
+.bio-2 h2, .bio-2 p {
+	margin: 0;
+}
+
 .bio-2 h2 {
-	text-align: justify;
-	margin: 5% 1vh 1% 1vh;
+	margin: 0 0 1.5vh 0;
 }
 
 .foto-profil {
@@ -82,6 +108,11 @@ h3 {
 	text-align: center;
 }
 
+.contact {
+	text-align: left;
+	margin-left: 40px;
+	padding-left: 1vh;
+}
 
 span {
 	color: #F9DDD2;
@@ -96,6 +127,7 @@ h1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin: 0 0 50px 0;
 }
 
 .cards {
@@ -163,11 +195,6 @@ li {
 	min-width: 0;
 }
 
-footer {
-	margin: 25px 0 0 0;
-	width: 100%;
-}
-
 .footer1, .footer2, .footer3{
 	flex: 1;
 	justify-items: center;
@@ -175,7 +202,7 @@ footer {
 
 .footer1 p, .footer2 p, .footer3 p{
 	margin: 5px;
-	font-size: 2vw;
+	font-size: 1.5vw;
 }
 
 .container-3 .footer1 {
@@ -223,15 +250,9 @@ footer {
 		font-size: 4vw;
 		padding: 25px 25px 0 25px;
 	}
-	
 
-
- 	.container-1 {
+ 	.container-1, .container, .container-biodata {
     	flex-direction: column;
-  	}
-
-  	.container {
-  		flex-direction: column;
   	}
 
   	.soft-skill, .hard-skill{
@@ -243,7 +264,7 @@ footer {
 		border-radius: 10px;
 		margin: 7.5px;
 	}
-	
+
 }
 
 }
