@@ -244,17 +244,7 @@ footer {
 		border-radius: 10px;
 		margin: 7.5px;
 	}
-
-	.material-symbols-outlined {
-	color: white;	
-	align-items: center;
-	margin: 0;
-	font-variation-settings:
-	'FILL' 0,
-	'wght' 400,
-	'GRAD' 0,
-	'opsz' 20
-	}
+	
 }
 
 }
