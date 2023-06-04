@@ -146,9 +146,9 @@ h1 {
 	flex: 50%;
 }
 
-.column a {
-	text-decoration: none;
-	color: #f8f8f8;
+a {
+	text-decoration: none !important;
+	color: #f8f8f8 !important;
 }
 
 ul {
