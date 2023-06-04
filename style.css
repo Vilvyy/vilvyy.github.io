@@ -1,10 +1,24 @@
-	body {
-	margin: 0;
+body {
 	background-color: #202c3b;
+	margin: 0;
+	font-family: 'Montserrat';
 	color: #f8f8f8;
 	font-size: 2.2vw;
+	padding: 0;
+}
+
+body p {
+	margin: 1vh;
+}
+
+.body-content{
+	margin: 0;
+	background-color: #202c3b;
 	padding: 50px 50px 0 50px;
-	font-family: 'Montserrat';
+}
+
+footer {
+	text-align: center;
 }
 
 .container {
@@ -48,6 +62,10 @@
 	flex-grow: 7;
 }
 
+.bio-2 h2 {
+	text-align: justify;
+}
+
 .foto-profil {
 	object-fit: cover;
 	max-height: 100%;
@@ -58,14 +76,16 @@
 
 h2 {
 	margin: 5% 0 1% 0;
+	text-align: center;
 }
 
 h3 {
 	text-align: center;
 }
 
+
 span {
-	color: #ff874b;
+	color: #F9DDD2;
 	font-weight: bold;
 }
 
@@ -80,6 +100,7 @@ h1 {
 }
 
 .cards {
+	opacity: 90%;
 	border-radius: 8px;
 	background-color: #74a0d6;
 	flex: 0 0 40%;
@@ -115,29 +136,96 @@ li {
 	text-align: center;
 	align-items: center;	
 	border-radius: 10px;
-	margin: 15px;
+	opacity: 90%;
 }
 
 .soft-skill{
 	align-items: flex-start;
 	flex-grow: 4;
 	flex-shrink: 4;
+	margin: 15px 15px 15px 0;
 }
 
 .hard-skill{
 	align-items: flex-end;
 	flex-grow: 6;
 	flex-shrink: 6;
+	margin: 15px 0 15px 15px;
+}
+
+.container-3 {
+	padding: 10px 0 10px 0;
+	width: 100%;
+	display: flex;
+	background-color: #55759d;
+	opacity: 90%;
+	justify-content: center;
+	margin: 0;
+	min-width: 0;
+}
+
+footer {
+	margin: 25px 0 0 0;
+	width: 100%;
+}
+
+.footer1, .footer2, .footer3{
+	flex: 1;
+	justify-items: center;
+}
+
+.footer1 p, .footer2 p, .footer3 p{
+	margin: 5px;
+	font-size: 2vw;
+}
+
+.container-3 .footer1 {
+	flex-grow: 2;
+}
+
+.container-3 .footer2 {
+	flex-grow: 6;
+}
+
+.container-3 .footer3 {
+	flex-grow: 2;
+}
+
+.container .footer1 {
+	text-align: center;
+	align-items: center;
+}
+
+.container .footer2 {
+	text-align: center;
+	align-items: center;
+}
+
+.container .footer3 {
+	text-align: center;
+	align-items: center;
 }
 
 @media (max-width: 600px) {
+
 	body {
+		background-color: #202c3b;
+		margin: 0;
+		font-family: 'Montserrat';
+		color: #f8f8f8;
+		font-size: 4vw;
+		padding: 0;
+	}
+	
+	.body-content{
 		margin: 0;
 		background-color: #202c3b;
 		color: #f8f8f8;
 		font-size: 4vw;
 		padding: 25px 25px 0 25px;
 	}
+	
+
 
  	.container-1 {
     	flex-direction: column;
@@ -156,5 +244,17 @@ li {
 		border-radius: 10px;
 		margin: 7.5px;
 	}
+
+	.material-symbols-outlined {
+	color: white;	
+	align-items: center;
+	margin: 0;
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 400,
+	'GRAD' 0,
+	'opsz' 20
+	}
+}
 
 }
