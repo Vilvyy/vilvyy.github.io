@@ -19,6 +19,9 @@ body p {
 
 footer {
 	text-align: center;
+	background-color: #55759d;
+	margin: 25px 0 0 0;
+	width: 100%;
 }
 
 .container {
