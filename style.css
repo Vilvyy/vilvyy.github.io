@@ -67,6 +67,7 @@ footer {
 
 .bio-2 h2 {
 	text-align: justify;
+	margin: 5% 1vh 1% 1vh;
 }
 
 .foto-profil {
@@ -75,11 +76,6 @@ footer {
 	max-width: 100%;
 	border-radius: 50%;
 	opacity: 0.9;
-}
-
-h2 {
-	margin: 5% 0 1% 0;
-	text-align: center;
 }
 
 h3 {
