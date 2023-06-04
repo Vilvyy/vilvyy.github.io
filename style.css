@@ -265,6 +265,11 @@ li {
 		margin: 7.5px;
 	}
 
+	.footer1 p, .footer2 p, .footer3 p{
+		margin: 5px;
+		font-size: 2vw;
+	}
+
 }
 
 }
