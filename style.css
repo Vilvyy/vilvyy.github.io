@@ -92,6 +92,10 @@ footer {
 	margin: 0 0 1.5vh 0;
 }
 
+.bio-2 span {
+	color: #FDE883;
+}
+
 .foto-profil {
 	object-fit: cover;
 	max-height: 100%;
