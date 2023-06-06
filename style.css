@@ -238,6 +238,18 @@ li {
 	align-items: center;
 }
 
+.button {
+	border: solid;
+	border-color: white;
+	border-radius: 30px;
+	background-color: #55759d;
+	opacity: 90%;
+	text-align: center;
+	max-width: auto;
+	margin: 1vh 0 0 0;
+	padding: 0.3vh;
+}
+
 @media (max-width: 600px) {
 
 	body {
@@ -276,6 +288,18 @@ li {
 		font-size: 2vw;
 		text-decoration: none;
 	}
+
+	.button {
+	border: solid;
+	border-color: white;
+	border-radius: 30px;
+	background-color: #55759d;
+	opacity: 90%;
+	text-align: center;
+	max-width: auto;
+	margin: 1.5vh 0 0 0;
+	padding: 0.5vh;
+}
 
 }
 
