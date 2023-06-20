@@ -1,2 +1,2 @@
 # vilvyy.github.io
-Github Portofolio/CV
+[Click Me](https://vilvyy.github.io)
